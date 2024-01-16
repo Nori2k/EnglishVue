@@ -1,0 +1,49 @@
+@import "./responsive.scss";
+
+.container {
+  // width: 1368px;
+  width: 1068px;
+  max-width: calc(100% - 2rem);
+  margin-inline: auto;
+}
+
+.line-clamp-1,
+.line-clamp-2,
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+// Dài quá thì tối đa 2 dòng và có ...
+.fixed-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: normal;
+  white-space: pre-line;
+  word-break: break-word;
+  &.clamp-2 {
+    -webkit-line-clamp: 2;
+  }
+  &.clamp-3 {
+    -webkit-line-clamp: 3;
+  }
+}
+
+// Dài quá 1 dòng thì ...
+.line-clamp-1 {
+  -webkit-line-clamp: 1;
+}
+
+// Dài quá 2 dòng thì ...
+.line-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+
+// Dài quá 3 dòng thì ...
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
