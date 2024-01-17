@@ -37,7 +37,7 @@ const toggleTheme = () => {
 <template>
   <div
     :class="checkTheme ? 'layout-topbar-dark' : 'layout-topbar'"
-    class="flex justify-content-between h-3rem md:h-5rem"
+    class="flex justify-content-between h-3rem md:h-4rem"
   >
     <div>
       <span

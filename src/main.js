@@ -2,10 +2,9 @@ import { createApp } from "vue";
 import { createPinia } from "pinia";
 
 import "/node_modules/primeflex/primeflex.css";
-// import "primevue/resources/themes/lara-light-green/theme.css";
 import "primeicons/primeicons.css";
 import "./assets/main.scss";
-// import "/public/themes/lara-light-purple/theme.css";
+import { plugin as VueTippy } from "vue-tippy";
 
 import PrimeVue from "primevue/config";
 
@@ -120,6 +119,15 @@ app.use(PrimeVue);
 app.use(ConfirmationService);
 app.use(ToastService);
 app.use(DialogService);
+
+app.use(
+  VueTippy,
+  // optional
+  {
+    directive: "tippy", // => v-tippy
+    component: "tippy", // => <tippy/>
+  }
+);
 
 app.directive("tooltip", Tooltip);
 app.directive("badge", BadgeDirective);

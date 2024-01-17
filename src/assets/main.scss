@@ -47,3 +47,17 @@
 .line-clamp-3 {
   -webkit-line-clamp: 3;
 }
+
+.custom-tippy {
+  .tippy-box {
+    border-radius: 0.75rem !important;
+    background-color: #838383 !important;
+    max-width: 15.7rem !important;
+    text-align: left;
+
+    .tippy-arrow {
+      border-bottom-color: #838383 !important;
+      color: #838383;
+    }
+  }
+}
