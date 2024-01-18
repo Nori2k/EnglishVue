@@ -7,6 +7,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -14,6 +15,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -32,6 +34,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Brands",
         translate: "Thương hiệu",
         example:
@@ -50,6 +53,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -57,6 +61,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -75,6 +80,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -82,6 +88,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -100,6 +107,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -107,6 +115,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -125,6 +134,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -132,6 +142,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -150,6 +161,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -157,6 +169,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -175,6 +188,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -182,6 +196,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
@@ -200,6 +215,7 @@ export const lessonEng = [
     isExample: true,
     vocab: [
       {
+        idVocab: 0,
         word: "Work Experience",
         translate: "Kinh nghiệm làm việc",
         example: "I have 2 years work experience in the IT field",
@@ -207,6 +223,7 @@ export const lessonEng = [
         isFavorite: false,
       },
       {
+        idVocab: 1,
         word: "Studied",
         translate: "Đã học",
         example:
